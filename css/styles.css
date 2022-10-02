@@ -1,0 +1,22 @@
+body{
+    margin :0px;
+}
+
+.topnav {
+    background-color: #212126;
+    overflow: hidden;
+    margin: 0px;
+    width:100%;
+    height: 80px;
+  }
+
+  
+.logo {
+    display: block;
+    width: 150px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.80%;
+}
+
