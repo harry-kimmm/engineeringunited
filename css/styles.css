@@ -64,11 +64,11 @@ body{
     border-radius: 20px;
     cursor: pointer;
     transition: 1s;
-    opacity: 0.5;
+    opacity: 0.25;
 }
 
 .manualbutton:not(:last-child){
-    margin-right: 40px;
+    margin-right: 80px;
 }
 
 .manualbutton:hover{
@@ -90,3 +90,40 @@ body{
 #radio4:checked ~ .first{
     margin-left: -60%;
 }
+
+.navigation-auto{
+    position: absolute;
+    width: 207vh;
+    margin-top: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div{
+    border: 10px solid  #FFFFFF;
+    padding: 5px;
+    border-radius: 20px;
+    transition: 1s;
+    opacity: 0.25;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 80px;
+}
+
+#radio1:checked ~ .navigation-auto .autobutton1{
+    background: #FFFFFF;
+}
+
+#radio2:checked ~ .navigation-auto .autobutton2{
+    background: #FFFFFF;
+}
+
+#radio3:checked ~ .navigation-auto .autobutton3{
+    background: #FFFFFF;
+}
+
+#radio4:checked ~ .navigation-auto .autobutton4{
+    background: #FFFFFF;
+}
+
