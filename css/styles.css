@@ -1,5 +1,7 @@
 body{
-    margin :0px;
+    margin :0px; 
+    padding: 0px;
+    height: 100vh;
 }
 
 .topnav {
@@ -20,3 +22,14 @@ body{
     padding: 0.80%;
 }
 
+.slider {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.slides {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
