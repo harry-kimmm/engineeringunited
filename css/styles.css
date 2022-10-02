@@ -23,15 +23,17 @@ body{
 }
 
 .slider {
-    width: 800px;
-    height: 500px;
-    border-radius: 10px;
-    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 80;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .slides {
     width: 500%;
-    height: 500px;
+    height: 100%;
     display: flex;
 }
 
@@ -41,18 +43,17 @@ body{
 
 .slide{
     width: 20%;
-    transition: 2s;
+    transition: 1s;
 }
 
 .slide img {
-    width: 800px;
-    height: 500px;
+    height: 120%;
 }
 
 .navigation-manual{
     position: absolute;
     width: 800px;
-    margin-top: 300px;
+    margin-top: -20px;
     display: flex;
     justify-content: center;
 }
@@ -69,4 +70,23 @@ body{
     margin-right: 40px;
 }
 
+.manualbutton:hover{
+    background: #FFFFFF;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
 
