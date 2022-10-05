@@ -10,56 +10,20 @@
 </head>
 
 <body>
+    <div>
     <div class="topnav">
         <img src="image/engineeringunitedlogoc.png" alt="logo" class="logo">
     </div>
 
-    <div class="slider">
-        <div class="slides">
-            <input type="radio" name="button" id="radio1">
-            <input type="radio" name="button" id="radio2">
-            <input type="radio" name="button" id="radio3">
-            <input type="radio" name="button" id="radio4">
+    <div id="slider">
+        <figure>
+            <img src="image/euslide1.png">
+            <img src="image/euslide2.png">
+            <img src="image/euslide3.png">
+            <img src="image/euslide4.png">
+            <img src="image/euslide1.png">
+        </figure>
+    </div>
 
-            <div class="slide first">
-                <img src="image/euslide1.png" alt="slide1">
-            </div>
-            <div class="slide">
-                <img src="image/euslide2.png" alt="slide2">
-            </div>
-            <div class="slide">
-                <img src="image/euslide3.png" alt="slide3">
-            </div>
-            <div class="slide">
-                <img src="image/euslide4.png" alt="slide4">
-            </div>
-
-            <div class="navigation-auto">
-                <div class="autobutton1"></div>
-                <div class="autobutton2"></div>
-                <div class="autobutton3"></div>
-                <div class="autobutton4"></div>
-            </div>
-
-            <div class="navigation-manual">
-                <label for="radio1" class="manualbutton"></label>
-                <label for="radio2" class="manualbutton"></label>
-                <label for="radio3" class="manualbutton"></label>
-                <label for="radio4" class="manualbutton"></label>
-            </div>
-        </div>
-    </div> 
-
-    <script type="text/javascript">
-        var counter = 1;
-        setInterval(function(){
-            document.getElementById('radio' + counter).checked = true;
-            counter++;
-            if (counter > 4){
-                counter = 1;                
-            }
-        }, 5000);
-        
-    </script>
 </body>
 </html>
