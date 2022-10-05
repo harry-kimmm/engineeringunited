@@ -22,16 +22,28 @@ body{
     padding: 0.80%;
 }
 
+.biglogo{
+    position: absolute;
+    z-index: 100;
+    top: 30%;
+    left: 40%;
+    width: 712.5px;
+    height: 525px;
+    margin-left: -175px;
+}
+
 #slider{
     overflow: hidden;
+    z-index: 0;
 }
 
 #slider figure {
-    position: relative;
+    position: absolute;
     width: 500%;
     margin: 0;
     left: 0;
     animation: 20s slider infinite;
+    z-index: 0;
 }
 
 #slider figure img {
