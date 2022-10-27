@@ -1,10 +1,13 @@
 body{
+    font-family: 'Ubuntu', sans-serif;
     margin :0px; 
     padding: 0px;
     height: 100vh;
 }
 
 .topnav {
+    position: sticky;
+    top: 0;
     background-color: #212126;
     overflow: hidden;
     margin: 0px;
@@ -38,16 +41,18 @@ body{
 }
 
 #slider figure {
-    position: absolute;
+    position: relative;
     width: 500%;
     margin: 0;
     left: 0;
     animation: 20s slider infinite;
     z-index: 0;
+    height: 5vw;
 }
 
 #slider figure img {
     width: 20%;
+    height: 975%;
     float: left;
 }
 
