@@ -1,24 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/styles.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="image/engineeringunitedlogocondensed.png" type = "image/x-icon">
-    <title>Engineering United</title>
-</head>
-
-<body>
-    <div>
-    <div class="topnav">
-        <img src="image/engineeringunitedlogoc.png" alt="logo" class="logo">
-    </div>
-
-    <div class="top">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Engineering United</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="image/engineeringunitedlogocondensed.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="image/engineeringunitedlogoc.png" alt="..." /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#services">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Join Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Contact</a></li>
+                    </ul>
+                </div>  
+            </div>
+        </nav>
+        <!-- Masthead-->
+    <div class="masthead">  
         <img class="biglogo" src="image/engineeringunitedlogobig.png" />
         <div id="slider">
             <figure>
@@ -30,8 +49,101 @@
             </figure>
         </div>
     </div>
-    <div>
-        <p>gfwqffvwfi</p>
-    </div>
+        <!-- About Us-->
+        <section class="page-section" id="services">
+            <div class="aboutustext">
+                <h1>About Us</h1>
+                <p1>We are a group of young-minded engineers who use the engineering process to resolve Southern California’s most significant problems. By developing solutions to such problems, we hope to develop a more convenient lifestyle for people of Southern California. </p1>
+            </div>
+        </section>
+        <!-- Projects -->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Projects</h2>
+                    <h3 class="section-subheading text-muted">Here are our projects</h3>
+                </div>
+        </section>
+        <!-- Signup -->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Sign Up Today</h2>
+                    <h3 class="section-subheading text-muted">Enter in your first and last name, grade level (2022-2023), and personal email</h3>
+                    <div class="container register">
+
+            <div class="row">
+                <div class="col-md-12">
+                        <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="row register-form">
+                                <div class="col-md-12">
+                                    <form method="post" autocomplete="off" name="google-sheet">
+                                        <div class="form-group">
+                                            <input type="text" name="First Name" class="form-control" placeholder="First Name" value="" required=""/>
+                                        </div>
+                                        <div class="form-group"> 
+                                            <input type="text" name="Last Name" class="form-control" placeholder="Last Name" value="" required=""/>
+                                        </div>
+                                        <div class = form-group>
+                                            <select class="form-control" name = "Grade" placeholder="Grade" value="" required="">
+                                                <option value = "9th" selected>9th</option>
+                                                <option value = "10th">10th</option>
+                                                <option value = "11th">11th</option>
+                                                <option value = "12th">12th</option>
+                                            </select>
+                                        </div> 
+                                        <div class="form-group">
+                                            <input type="email" name="Email" class="form-control" placeholder="Email" value="" required=""/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="submit" name="submit" class="btnSubmit btn-block" value="Join" />
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+          
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyfsoHDJOAsWfSj6eOvmFDAdWp2dBhglngkEf__NWxlbPc8XDDLXlLZastek9ZPHHEO/exec'
+            const form = document.forms['google-sheet']
+
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("You have succesfully joined Engineering United!"))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+            
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">You can contact us through this email</h3>
+                </div>
+                <h1 class="text-center">enigneeringunited24@gmail.com</h1>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="right-align">&copy; Engineering United 2022</div>
+
+        </footer>
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->   
+        <script src="js/scripts.js"></script>
+
+    </body>
 </html>
