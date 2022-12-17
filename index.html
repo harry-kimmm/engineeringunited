@@ -51,7 +51,10 @@
     </div>
         <!-- About Us-->
         <section class="page-section" id="services">
-            <div class="aboutustext">
+            <div class="floatleft">
+                <img src="image/cogs.png">
+            </div>
+            <div class="right">
                 <h1>About Us</h1>
                 <p1>We are a group of young-minded engineers who use the engineering process to resolve Southern California’s most significant problems. By developing solutions to such problems, we hope to develop a more convenient lifestyle for people of Southern California. </p1>
             </div>
@@ -71,39 +74,38 @@
                     <h2 class="section-heading text-uppercase">Sign Up Today</h2>
                     <h3 class="section-subheading text-muted">Enter in your first and last name, grade level (2022-2023), and personal email</h3>
                     <div class="container register">
-
-            <div class="row">
-                <div class="col-md-12">
-                        <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            <div class="row register-form">
-                                <div class="col-md-12">
-                                    <form method="post" autocomplete="off" name="google-sheet">
-                                        <div class="form-group">
-                                            <input type="text" name="First Name" class="form-control" placeholder="First Name" value="" required=""/>
+                        <div class="row">
+                            <div class="col-md-12">
+                                    <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                        <div class="row register-form">
+                                            <div class="col-md-12">
+                                                <form method="post" autocomplete="off" name="google-sheet">
+                                                    <div class="form-group">
+                                                        <input type="text" name="First Name" class="form-control" placeholder="First Name" value="" required=""/>
+                                                    </div>
+                                                    <div class="form-group"> 
+                                                        <input type="text" name="Last Name" class="form-control" placeholder="Last Name" value="" required=""/>
+                                                    </div>
+                                                    <div class = form-group>
+                                                        <select class="form-control" name = "Grade" placeholder="Grade" value="" required="">
+                                                            <option value = "9th" selected>9th</option>
+                                                            <option value = "10th">10th</option>
+                                                            <option value = "11th">11th</option>
+                                                            <option value = "12th">12th</option>
+                                                        </select>
+                                                    </div> 
+                                                    <div class="form-group">
+                                                        <input type="email" name="Email" class="form-control" placeholder="Email" value="" required=""/>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="submit" name="submit" class="btnSubmit btn-block" value="Join" />
+                                                    </div>
+                                                </form>
+                                            </div>
                                         </div>
-                                        <div class="form-group"> 
-                                            <input type="text" name="Last Name" class="form-control" placeholder="Last Name" value="" required=""/>
-                                        </div>
-                                        <div class = form-group>
-                                            <select class="form-control" name = "Grade" placeholder="Grade" value="" required="">
-                                                <option value = "9th" selected>9th</option>
-                                                <option value = "10th">10th</option>
-                                                <option value = "11th">11th</option>
-                                                <option value = "12th">12th</option>
-                                            </select>
-                                        </div> 
-                                        <div class="form-group">
-                                            <input type="email" name="Email" class="form-control" placeholder="Email" value="" required=""/>
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="submit" name="submit" class="btnSubmit btn-block" value="Join" />
-                                        </div>
-                                    </form>
-                                </div>
+                                    </div>
                             </div>
                         </div>
-                </div>
-            </div>
         </div>
           
           <script>
@@ -126,16 +128,16 @@
             </div>
         </section>
         <!-- Contact -->
-        <section class="page-section bg-light" id="team">
-            <div class="container">
-                <div class="text-center">
+        <section class="page-section bg-light" id="team">   
+                <div class="text-center">  
                     <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">You can contact us through this email</h3>
-                </div>
-                <h1 class="text-center">enigneeringunited24@gmail.com</h1>
+                    <h3 class="section-subheading text-muted">You can contact us through email and Instagram!</h3>
+                    <h2 class="section-subheading text-body">engineeringunited2024@gmail.com</h2>
+                    <h2 class="section-subheading text-body">or</h2>
+                    <h2 class="section-subheading text-body">@cypress_engineering_united</h2>
         </section>
         <!-- Footer-->
-        <footer class="footer py-4">
+        <footer class="footer py-4">    
             <div class="right-align">&copy; Engineering United 2022</div>
 
         </footer>
