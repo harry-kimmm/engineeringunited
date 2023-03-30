@@ -1,5 +1,5 @@
 {
-  "name": "eurevamp",
+  "name": "engineeringunited",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,6 +12,11 @@
     "vite": "^4.2.0"
   },
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "three": "^0.150.1"
-  }
+  },
+  "description": "",
+  "main": "main.js",
+  "author": "",
+  "license": "ISC"
 }
